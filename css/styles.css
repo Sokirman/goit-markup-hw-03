@@ -186,6 +186,7 @@ a {
   border-radius: 4px;
   margin-right: auto;
   margin-left: auto;
+  height: 56px;
 }
 
 .button:hover,
