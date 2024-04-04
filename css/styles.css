@@ -202,8 +202,12 @@ a {
 
 /*-===================================================== Section 2 ====================================================*/
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .features {
-  padding: 120px 0;
   display: flex;
 }
 
@@ -240,8 +244,6 @@ a {
 
 .team {
   background-color: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 .team-title {
   font-weight: 700;
@@ -272,8 +274,6 @@ a {
 /*-===================================================== Section 4 ====================================================*/
 
 .portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .portfolio-title {
