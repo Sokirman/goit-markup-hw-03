@@ -62,8 +62,11 @@ a {
 
 .header {
   border-bottom: 1px;
-  border-color: ;
+  border-color: solid #e7e9fc;
   padding: 24px 156px;
+}
+
+.container-header {
 }
 
 /* display: flex;
@@ -80,7 +83,6 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-bottom: 16px;
 }
 
 .header-logo {
@@ -99,6 +101,7 @@ a {
 }
 
 .address-list {
+  display: flex;
   gap: 40px;
 }
 
@@ -156,8 +159,6 @@ a {
 /*-===================================================== Section 1 ====================================================*/
 
 .hero {
-  /* background: #2e2f42;
-  padding: 188px 472px; */
 }
 
 .hero-wrap {
@@ -173,7 +174,7 @@ a {
   color: #fff;
   text-align: center;
   max-width: 496px;
-  margin-bottom: 48px;
+  margin: 0 auto 48px auto;
 }
 
 .button {
@@ -188,6 +189,8 @@ a {
   background-color: #4d5ae5;
   cursor: pointer;
   border-radius: 4px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .button:hover,
@@ -199,10 +202,13 @@ a {
 /*-===================================================== Section 2 ====================================================*/
 
 .features {
-  padding: 120px 156px;
+  padding: 120px 0;
+  display: flex;
 }
 
 .features-list {
+  gap: 24px;
+  margin-right: 24px;
 }
 
 .features-item {
