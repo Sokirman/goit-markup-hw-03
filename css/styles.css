@@ -78,6 +78,7 @@ a {
   color: #4d5ae5;
   padding: 24px 0;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .header-logo {
@@ -285,7 +286,7 @@ a {
 
 .footer {
   background: #2e2f42;
-  padding: 100px 1020px 100px 156px;
+  padding: 100px 0;
 }
 
 .footer-logo {
