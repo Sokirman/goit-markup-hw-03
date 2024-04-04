@@ -62,8 +62,12 @@ a {
 
 .header {
   border-bottom: 1px;
+  border-color: ;
   padding: 24px 156px;
 }
+
+/* display: flex;
+  gap: 40px; */
 
 .header-nav {
 }
@@ -76,9 +80,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding: 24px 0;
   margin-bottom: 16px;
-  display: inline-block;
 }
 
 .header-logo {
@@ -97,7 +99,6 @@ a {
 }
 
 .address-list {
-  display: flex;
   gap: 40px;
 }
 
@@ -161,7 +162,7 @@ a {
 
 .hero-wrap {
   background: #2e2f42;
-  padding: 188px 472px;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -182,8 +183,11 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  background: #4d5ae5;
+  display: block;
+  border: none;
+  background-color: #4d5ae5;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .button:hover,
@@ -299,6 +303,7 @@ a {
   color: #f4f4fd;
   margin-top: 0;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-text {
