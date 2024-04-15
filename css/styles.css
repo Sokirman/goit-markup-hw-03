@@ -79,8 +79,7 @@ address {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 
 .logo {
@@ -91,6 +90,7 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .header-logo {
@@ -98,6 +98,8 @@ address {
 }
 
 .nav-list {
+  display: flex;
+  align-items: center;
 }
 
 .nav-item {
@@ -305,8 +307,8 @@ address {
 }
 .footer-logo {
   color: #f4f4fd;
-  margin-bottom: 16px;
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
