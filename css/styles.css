@@ -97,9 +97,14 @@ address {
   color: #2e2f42;
 }
 
-.nav-list {
+.header-nav {
   display: flex;
   align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 40px;
 }
 
 .nav-item {
@@ -120,6 +125,8 @@ address {
 }
 
 .address-list {
+  display: flex;
+  gap: 40px;
 }
 
 .address-item {
