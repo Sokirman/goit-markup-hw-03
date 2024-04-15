@@ -98,14 +98,14 @@ address {
 }
 
 .header-nav {
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
 }
 
 .nav-list {
-  display: flex;
+  /* display: flex;
   gap: 40px;
-}
+} */
 
 .nav-item {
 }
@@ -125,8 +125,8 @@ address {
 }
 
 .address-list {
-  display: flex;
-  gap: 40px;
+  /* display: flex;
+  gap: 40px; */
 }
 
 .address-item {
@@ -325,3 +325,6 @@ address {
   color: #f4f4fd;
   max-width: 264px;
 }
+
+
+
