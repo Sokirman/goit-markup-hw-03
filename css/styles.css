@@ -83,7 +83,7 @@ address {
   padding-bottom: 24px;
 }
 
-.logo {
+.header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -93,7 +93,7 @@ address {
   color: #4d5ae5;
 }
 
-.header-logo {
+.header-studio {
   color: #2e2f42;
 }
 
@@ -303,10 +303,10 @@ address {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.footer-logo {
+.footer-studio {
   color: #f4f4fd;
 }
-.logo-footer {
+.footer-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
