@@ -155,12 +155,15 @@ address {
 /*==================================== HERO (section 1) ======================================*/
 
 .hero {
+
+
   
 }
 
 .hero-wrap {
   background-color: #2e2f42;
   padding: 188px 0px;
+  
 }
 
 .hero-title {
@@ -212,11 +215,8 @@ address {
   gap: 24px;
 }
 
-.features-list:first-child {
-  width: calc((100% - 72px) / 4); 
-}
-
 .features-item {
+  width: calc((100% - 72px) / 4); 
 }
 .features-subtitle {
   font-weight: 500;
