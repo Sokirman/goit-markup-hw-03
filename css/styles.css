@@ -89,6 +89,8 @@ address {
   color: #4d5ae5;
   padding-left: 156px;
   margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-studio {
@@ -98,21 +100,18 @@ address {
 .header-nav {
   display: flex;
   flex-grow: 1;
-  align-items: center;
+  
+
 }
 
 .header-container {
   display: flex;
- 
 }
 
 .nav-list {
   padding: 24px 0;
   display: flex;
   gap: 40px;
-
- 
-
 }
 
 .nav-item {
@@ -135,6 +134,8 @@ address {
 .address-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
+  
 }
 
 .address-item {
