@@ -75,10 +75,9 @@ address {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding-left: 156px;
-  padding-right: 156px;
+  padding: 24px 0;
+  /* padding-left: 156px;
+  padding-right: 156px; */
 }
 
 .header-logo {
@@ -209,8 +208,7 @@ address {
 }
 
 .features-list {
-  padding-left: 156px;
-  padding-right: 156px;
+ 
   display: flex;
   gap: 24px;
 }
