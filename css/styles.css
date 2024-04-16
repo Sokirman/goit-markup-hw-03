@@ -87,10 +87,10 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding-left: 156px;
+  /* padding-left: 156px; */
   margin-right: 76px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
+
 }
 
 .header-studio {
