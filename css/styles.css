@@ -194,8 +194,8 @@ address {
   padding: 16px 32px;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #404bbf;
 }
 
