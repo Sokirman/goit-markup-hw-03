@@ -89,7 +89,7 @@ address {
   color: #4d5ae5;
   /* padding-left: 156px; */
   margin-right: 76px;
-  padding: 24px 0;
+  /* padding: 24px 0; */
 
 }
 
@@ -109,7 +109,7 @@ address {
 }
 
 .nav-list {
-  padding: 24px 0;
+  /* padding: 24px 0; */
   display: flex;
   gap: 40px;
 }
@@ -134,7 +134,7 @@ address {
 .address-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
+  /* padding: 24px 0; */
   
 }
 
